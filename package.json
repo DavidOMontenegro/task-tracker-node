@@ -1,19 +1,27 @@
 {
   "name": "task-tracker-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple REST API for managing tasks and users. Built for learning and portfolio development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "DavidOMontenegro",
+  "license": "MIT",
+  "type": "module",
   "dependencies": {
     "@prisma/client": "^6.18.0",
     "express": "^5.1.0",
     "prisma": "^6.18.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidOMontenegro/task-tracker-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidOMontenegro/task-tracker-node/issues"
+  },
+  "homepage": "https://github.com/DavidOMontenegro/task-tracker-node#readme"
 }
